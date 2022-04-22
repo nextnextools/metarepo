@@ -1,0 +1,35 @@
+{
+  "name": "@auto/telegram",
+  "version": "0.2.0",
+  "description": "Send Telegram messages with Auto Tools",
+  "keywords": [
+    "monorepo",
+    "workspaces",
+    "auto",
+    "commits",
+    "changelog"
+  ],
+  "main": "src/index.ts",
+  "repository": "nextools/metarepo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@auto/core": "^0.3.4",
+    "node-fetch": "^2.6.0",
+    "tsfn": "^2.2.0"
+  },
+  "devDependencies": {
+    "@mock/require": "^0.2.2",
+    "@types/node-fetch": "^2.5.4",
+    "@types/tape": "^4.2.34",
+    "spyfn": "^2.0.0",
+    "tape": "^5.0.0"
+  },
+  "fixdeps": {
+    "ignoredPackages": [
+      "react"
+    ]
+  }
+}

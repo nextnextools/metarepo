@@ -1,0 +1,30 @@
+{
+  "name": "@auto/changelog",
+  "version": "0.2.1",
+  "description": "Generate `changelog.md` files with Auto Tools",
+  "keywords": [
+    "monorepo",
+    "workspaces",
+    "auto",
+    "commits",
+    "changelog"
+  ],
+  "main": "src/index.ts",
+  "repository": "nextools/metarepo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@auto/core": "^0.3.4",
+    "pifs": "^2.0.0",
+    "spown": "^0.1.2",
+    "tsfn": "^2.2.0"
+  },
+  "devDependencies": {
+    "@mock/require": "^0.2.2",
+    "memfs": "^3.1.1",
+    "spyfn": "^2.0.0",
+    "tape": "^5.0.0"
+  }
+}
