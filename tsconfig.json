@@ -1,0 +1,10 @@
+{
+  "extends": "@nextools/typescript-config",
+  "exclude": [
+    "node_modules/",
+    "coverage/",
+    "packages/*/build/",
+    "packages/*/*/build/",
+    "tmp/"
+  ]
+}

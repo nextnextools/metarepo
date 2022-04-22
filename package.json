@@ -1,0 +1,160 @@
+{
+  "private": true,
+  "description": "metarepo",
+  "workspaces": [
+    "packages/auto/*",
+    "packages/autoprops",
+    "packages/bsc",
+    "packages/circularr",
+    "packages/codecov-lite",
+    "packages/copie",
+    "packages/dirdir",
+    "packages/dleet",
+    "packages/dupdep",
+    "packages/ekst",
+    "packages/fixdeps",
+    "packages/foreal",
+    "packages/funcom",
+    "packages/globl",
+    "packages/graphiq",
+    "packages/ida",
+    "packages/ifps",
+    "packages/import-wasm",
+    "packages/iproto/*",
+    "packages/iterama",
+    "packages/itobj",
+    "packages/iva",
+    "packages/makethen",
+    "packages/mdown",
+    "packages/mnth",
+    "packages/mock/*",
+    "packages/move-path",
+    "packages/nextools/*",
+    "packages/nocean",
+    "packages/perfa/*",
+    "packages/piall",
+    "packages/pifs",
+    "packages/pkgu",
+    "packages/portu",
+    "packages/portz",
+    "packages/r11y",
+    "packages/ramdsk",
+    "packages/rebox/*",
+    "packages/refps",
+    "packages/refun",
+    "packages/revert/*",
+    "packages/rn-fonts",
+    "packages/rndi",
+    "packages/rplace",
+    "packages/rsolve",
+    "packages/rwrw",
+    "packages/siza",
+    "packages/sleap",
+    "packages/spown",
+    "packages/spyfn",
+    "packages/spyt",
+    "packages/start/*",
+    "packages/stroki",
+    "packages/syntx",
+    "packages/tarmap",
+    "packages/tmpa",
+    "packages/tsfn",
+    "packages/typeon",
+    "packages/unchunk",
+    "packages/weslint",
+    "packages/workerama",
+    "packages/x-ray/*",
+    "packages/xrom",
+    "packages/yupg"
+  ],
+  "devDependencies": {
+    "@nextools/eslint-config": "*",
+    "@nextools/start-preset": "*",
+    "@nextools/typescript-config": "*",
+    "@revert/color": "*",
+    "@start/plugin": "*",
+    "@types/node": "^14.0.0",
+    "@types/react-native": "^0.64.0",
+    "@types/ws": "^7.2.6",
+    "eslint": "^7.0.0",
+    "graphiq": "*",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-device-info": "^6.0.1",
+    "react-native-svg": "^12.1.0",
+    "tsfn": "*",
+    "typescript": "^4.0.0",
+    "ws": "^7.3.1"
+  },
+  "scripts": {
+    "start": "packages/nextools/start-preset/src/cli/index.js"
+  },
+  "start": {
+    "file": "tasks/",
+    "auto": {
+      "shouldMakeGitTags": true,
+      "shouldSendTelegramMessage": false,
+      "shouldWriteChangelogFiles": true
+    }
+  },
+  "auto": {
+    "bump": {
+      "initialType": "minor",
+      "zeroBreakingChangeType": "minor"
+    },
+    "npm": {
+      "publishSubDirectory": "build",
+      "access": "public"
+    },
+    "prefixes": {
+      "major": "💥",
+      "minor": "🌱",
+      "patch": "🐞",
+      "publish": "📦",
+      "dependencies": "♻️",
+      "initial": "🐣",
+      "lint": "🚷",
+      "test": "👾",
+      "docs": "📝",
+      "refactor": "🛠",
+      "wip": "🚧",
+      "screenshots": "📸"
+    },
+    "commit": {
+      "major": "Breaking Change",
+      "minor": "New feature",
+      "patch": "Bugfix",
+      "initial": "Initial",
+      "depepdencies": "Dependencies",
+      "lint": "Lint",
+      "test": "Test",
+      "docs": "Docs",
+      "refactor": "Refactor",
+      "wip": "WIP",
+      "screenshots": "Snapshots / Screenshots"
+    }
+  },
+  "eslintConfig": {
+    "extends": "@nextools/eslint-config"
+  },
+  "eslintIgnore": [
+    "build/",
+    "coverage/",
+    "node_modules/"
+  ],
+  "renovate": {
+    "commitMessagePrefix": "♻️",
+    "commitMessageAction": "update",
+    "commitMessageTopic": "{{depName}}",
+    "ignoreDeps": [
+      "gradle",
+      "metro-react-native-babel-preset",
+      "react-dom",
+      "react-test-renderer",
+      "react"
+    ]
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  }
+}
