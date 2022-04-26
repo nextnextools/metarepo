@@ -10,7 +10,7 @@
     "assets/*": "assets/",
     "templates/*": "templates/"
   },
-  "repository": "nextnextools/metarepo",
+  "repository": "https://github.com/nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"

@@ -32,12 +32,12 @@ TOC:
 * [Prompt](#prompt)
 * [Example](#example) 
 * [Additional functionality](#additional-functionality)
-    * [`@auto/commit-prompt`](#autocommit-prompt)
-    * [`@auto/tag`](#autotag)
-    * [`@auto/github`](#autogithub)
-    * [`@auto/changelog`](#autochangelog)
-    * [`@auto/slack`](#autoslack)
-    * [`@auto/telegram`](#autotelegram)
+    * [`@nextnextools/auto-commit-prompt`](#autocommit-prompt)
+    * [`@nextnextools/auto-tag`](#autotag)
+    * [`@nextnextools/auto-github`](#autogithub)
+    * [`@nextnextools/auto-changelog`](#autochangelog)
+    * [`@nextnextools/auto-slack`](#autoslack)
+    * [`@nextnextools/auto-telegram`](#autotelegram)
 
 ## Conventional Git commits
 
@@ -185,7 +185,7 @@ type THooks = {
 
 ## Core API
 
-`@auto/core` entrypoint exports the following functions:
+`@nextnextools/auto-core` entrypoint exports the following functions:
 
 ```ts
 import {
@@ -194,13 +194,13 @@ import {
   writePublishCommit,
   publishPackages,
   pushCommitsAndTags,
-} from '@auto/core'
+} from '@nextnextools/auto-core'
 ```
 
 Default usage example would look like the following:
 
 ```ts
-import { auto } from '@auto/core'
+import { auto } from '@nextnextools/auto-core'
 
 await auto({
   build: ({ packages }) => {
@@ -227,7 +227,7 @@ await auto({
 Or some kind of a "test" publish, for example to a local [Verdaccio](https://github.com/verdaccio/verdaccio) NPM registry:
 
 ```js
-import { auto, publishPackages } from '@auto/core'
+import { auto, publishPackages } from '@nextnextools/auto-core'
 
 await auto({
   // don't make deps commit
@@ -403,7 +403,7 @@ And the following Git commits:
 And `auto` API has been invoked in all-defaults mode:
 
 ```ts
-import { auto } from '@auto/core'
+import { auto } from '@nextnextools/auto-core'
 
 await auto()
 ```
@@ -430,7 +430,7 @@ await auto()
 
 `@auto` NPM scope also contains some additional packages:
 
-### `@auto/commit-prompt`
+### `@nextnextools/auto-commit-prompt`
 
 Interactive prompt to make commits using `prefixes` defined in `auto` config.
 
@@ -438,7 +438,7 @@ Interactive prompt to make commits using `prefixes` defined in `auto` config.
 const makeCommit: () => Promise<void>
 ```
 
-### `@auto/tag`
+### `@nextnextools/auto-tag`
 
 Hook to make per-release Git tags.
 
@@ -446,7 +446,7 @@ Hook to make per-release Git tags.
 const writePublishTags: THook
 ```
 
-### `@auto/github`
+### `@nextnextools/auto-github`
 
 Hook factory to make [GitHub releases](https://help.github.com/en/github/administering-a-repository/about-releases) with necessary changelog.
 
@@ -460,7 +460,7 @@ type TGithubConfig = {
 const makeGithubReleases: (githubConfig: TGithubConfig) => THook
 ```
 
-### `@auto/changelog`
+### `@nextnextools/auto-changelog`
 
 Hook factory to create and update per-package `changelog.md` file with necessary changes.
 
@@ -468,7 +468,7 @@ Hook factory to create and update per-package `changelog.md` file with necessary
 const writeChangelogFiles: THook
 ```
 
-### `@auto/slack`
+### `@nextnextools/auto-slack`
 
 Hook factory send [Slack](https://slack.com/) message with necessary changelog.
 
@@ -486,7 +486,7 @@ type TSlackConfig = {
 const sendSlackMessage: (slackConfig: TSlackConfig) => THook
 ```
 
-### `@auto/telegram`
+### `@nextnextools/auto-telegram`
 
 Hook factory to send [Telegram](https://telegram.org/) message with necessary changelog.
 

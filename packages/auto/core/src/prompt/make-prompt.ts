@@ -13,7 +13,7 @@ import { makeQuestionObject } from './make-question-object'
 import { mergeEditResults } from './merge-edit-results'
 import type { TPromptResult, TQuestionObj } from './types'
 
-const PROMPT_FILE_PATH = './node_modules/@auto/.EDIT.json'
+const PROMPT_FILE_PATH = './node_modules/@nextnextools/auto-.EDIT.json'
 
 const resultYes = (): TPromptResult => ({ type: 'YES' })
 const resultNo = (): TPromptResult => ({ type: 'NO' })

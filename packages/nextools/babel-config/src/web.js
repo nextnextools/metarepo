@@ -1,4 +1,4 @@
-const { browsersList } = require('@nextools/browsers-list')
+const { browsersList } = require('@nextnextools/nextools-browsers-list')
 
 exports.babelConfigWebBuild = {
   ast: false,

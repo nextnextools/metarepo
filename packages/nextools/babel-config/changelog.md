@@ -26,7 +26,7 @@
 
 * 🐞 use ESM for Babel runtime helpers in web builds
 
-* ♻️ update dependencies `@nextools/browsers-list`
+* ♻️ update dependencies `@nextnextools/nextools-browsers-list`
 
 ## v0.1.6
 

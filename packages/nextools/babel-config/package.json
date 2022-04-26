@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "types": "src/index.d.ts",
-  "repository": "nextnextools/metarepo",
+  "repository": "https://github.com/nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"

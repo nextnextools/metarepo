@@ -1,5 +1,5 @@
 {
-  "extends": "@nextools/typescript-config",
+  "extends": "@nextnextools/nextools-typescript-config",
   "exclude": [
     "node_modules/",
     "coverage/",

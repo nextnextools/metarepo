@@ -1,11 +1,11 @@
-import type { THook } from '@auto/core'
-import type { TGithubConfig } from '@auto/github'
-import type { TSlackConfig } from '@auto/slack'
-import type { TTelegramConfig } from '@auto/telegram'
+import type { THook } from '@nextnextools/auto-core'
+import type { TGithubConfig } from '@nextnextools/auto-github'
+import type { TSlackConfig } from '@nextnextools/auto-slack'
+import type { TTelegramConfig } from '@nextnextools/auto-telegram'
 import plugin from '@start/plugin'
 
 export const commit = () => plugin('commit', () => async () => {
-  const { makeCommit } = await import('@auto/commit-prompt')
+  const { makeCommit } = await import('@nextnextools/auto-commit-prompt')
 
   await makeCommit()
 })
@@ -50,8 +50,8 @@ const preBuild: THook = async (props) => {
 }
 
 export const publish = () => plugin('publish', ({ reporter }) => async () => {
-  const { auto, publishPackages } = await import('@auto/core')
-  const { writePublishTags } = await import('@auto/tag')
+  const { auto, publishPackages } = await import('@nextnextools/auto-core')
+  const { writePublishTags } = await import('@nextnextools/auto-tag')
   const { getStartOptions } = await import('./utils')
   const {
     auto: {
@@ -62,9 +62,9 @@ export const publish = () => plugin('publish', ({ reporter }) => async () => {
       shouldMakeGitTags = false,
     } = {},
   } = await getStartOptions()
-  const { makeGithubReleases } = await import('@auto/github')
-  const { sendSlackMessage } = await import('@auto/slack')
-  const { sendTelegramMessage } = await import('@auto/telegram')
+  const { makeGithubReleases } = await import('@nextnextools/auto-github')
+  const { sendSlackMessage } = await import('@nextnextools/auto-slack')
+  const { sendTelegramMessage } = await import('@nextnextools/auto-telegram')
 
   const slackConfig: TSlackConfig = {
     token: process.env.AUTO_SLACK_TOKEN as string,
@@ -100,7 +100,7 @@ export const publish = () => plugin('publish', ({ reporter }) => async () => {
     prePublishCommit: async (props) => {
       // Write changelog files
       if (shouldWriteChangelogFiles) {
-        const { writeChangelogFiles } = await import('@auto/changelog')
+        const { writeChangelogFiles } = await import('@nextnextools/auto-changelog')
 
         await writeChangelogFiles(props)
       }
@@ -127,7 +127,7 @@ export const publish = () => plugin('publish', ({ reporter }) => async () => {
 
 export const testPublish = () => plugin('testPublish', ({ reporter }) => async () => {
   const { default: sequence } = await import('@start/plugin-sequence')
-  const { auto, publishPackages } = await import('@auto/core')
+  const { auto, publishPackages } = await import('@nextnextools/auto-core')
   const { forEachRelease } = await import('./plugins/for-each-package')
   const { buildPackage } = await import('./build')
   const { default: preparePackage } = await import('./plugins/prepare-package')

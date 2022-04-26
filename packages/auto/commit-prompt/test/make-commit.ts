@@ -26,7 +26,7 @@ test('git:makeCommit single package', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -85,7 +85,7 @@ test('git:makeCommit multiple packages', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -140,7 +140,7 @@ test('git:makeCommit: no auto name prefix in prefixes', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -191,7 +191,7 @@ test('git:makeCommit: no package name', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -242,7 +242,7 @@ test('git:makeCommit: all packages `*`', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -283,7 +283,7 @@ test('git:makeCommit: should throw on prefix undefined', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -328,7 +328,7 @@ test('git:makeCommit: should throw on packageName undefined', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -381,7 +381,7 @@ test('git:makeCommit: should throw on message undefined', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {
@@ -434,7 +434,7 @@ test('git:makeCommit lowercase first message letter', async (t) => {
       spawnChildProcess: spawnChildProcessSpy,
     },
     prompts: { default: promptsSpy },
-    '@auto/core': {
+    '@nextnextools/auto-core': {
       getPackages: () => Promise.resolve(
         new Map()
           .set('foo', {

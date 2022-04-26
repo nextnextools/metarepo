@@ -1,4 +1,4 @@
-import type { THook } from '@auto/core'
+import type { THook } from '@nextnextools/auto-core'
 import { spawnChildProcess } from 'spown'
 
 export const writePublishTags: THook = async ({ packages }) => {

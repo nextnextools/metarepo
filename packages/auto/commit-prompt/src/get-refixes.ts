@@ -1,5 +1,5 @@
 import path from 'path'
-import type { TPackageJson } from '@auto/core'
+import type { TPackageJson } from '@nextnextools/auto-core'
 import { isUndefined } from 'tsfn'
 import type { TPrefixesWithTitles, TCommitAutoConfig } from './types'
 

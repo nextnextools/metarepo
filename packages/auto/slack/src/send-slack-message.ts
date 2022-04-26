@@ -1,4 +1,4 @@
-import type { THook, TPackageRelease, TMessage, TLogReleaseType } from '@auto/core'
+import type { THook, TPackageRelease, TMessage, TLogReleaseType } from '@nextnextools/auto-core'
 import fetch from 'node-fetch'
 import { isString } from 'tsfn'
 import type { TReadonly } from 'tsfn'

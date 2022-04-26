@@ -26,7 +26,7 @@ export const buildAssets = async (dir: string) => {
 }
 
 export const buildWeb = async (dir: string): Promise<StartPlugin<{}, {}>> => {
-  const { babelConfigWebBuild } = await import('@nextools/babel-config')
+  const { babelConfigWebBuild } = await import('@nextnextools/nextools-babel-config')
 
   return sequence(
     find([
@@ -42,7 +42,7 @@ export const buildWeb = async (dir: string): Promise<StartPlugin<{}, {}>> => {
 }
 
 export const buildReactNative = async (dir: string): Promise<StartPlugin<{}, {}>> => {
-  const { babelConfigReactNativeBuild } = await import('@nextools/babel-config')
+  const { babelConfigReactNativeBuild } = await import('@nextnextools/nextools-babel-config')
   const { default: globby } = await import('globby')
   const allFiles = await globby(
     [
@@ -83,7 +83,7 @@ export const buildReactNative = async (dir: string): Promise<StartPlugin<{}, {}>
 }
 
 export const buildNode = async (dir: string): Promise<StartPlugin<{}, {}>> => {
-  const { babelConfigNodeBuild } = await import('@nextools/babel-config')
+  const { babelConfigNodeBuild } = await import('@nextnextools/nextools-babel-config')
 
   return sequence(
     env({ BABEL_ENV: 'production' }),
@@ -115,7 +115,7 @@ export const buildNode = async (dir: string): Promise<StartPlugin<{}, {}>> => {
 }
 
 export const buildNodeESM = async (dir: string): Promise<StartPlugin<{}, {}>> => {
-  const { babelConfigNodeESMBuild } = await import('@nextools/babel-config')
+  const { babelConfigNodeESMBuild } = await import('@nextnextools/nextools-babel-config')
 
   return sequence(
     env({ BABEL_ENV: 'production' }),

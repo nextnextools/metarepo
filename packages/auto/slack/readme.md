@@ -1,1 +1,1 @@
-# @auto/slack ![npm](https://flat.badgen.net/npm/v/@auto/slack)
+# @nextnextools/auto-slack ![npm](https://flat.badgen.net/npm/v/@nextnextools/auto-slack)

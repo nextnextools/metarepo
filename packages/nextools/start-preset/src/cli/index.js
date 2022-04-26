@@ -2,6 +2,6 @@
 
 require('dotenv/config')
 
-require('@babel/register')(require('@nextools/babel-config').babelConfigNodeRegister)
+require('@babel/register')(require('@nextnextools/nextools-babel-config').babelConfigNodeRegister)
 
 require('./cli')

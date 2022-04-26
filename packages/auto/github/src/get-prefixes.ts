@@ -1,5 +1,5 @@
 import path from 'path'
-import type { TPackageJson, TPrefixes } from '@auto/core'
+import type { TPackageJson, TPrefixes } from '@nextnextools/auto-core'
 import { isUndefined } from 'tsfn'
 
 export const getPrefixes = async (): Promise<TPrefixes> => {

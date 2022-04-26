@@ -1,4 +1,4 @@
-# @nextools/suppress-experimental-warnings ![npm](https://flat.badgen.net/npm/v/@nextools/suppress-experimental-warnings)
+# @nextnextools/nextools-suppress-experimental-warnings ![npm](https://flat.badgen.net/npm/v/@nextnextools/nextools-suppress-experimental-warnings)
 
 Suppress experimental warnings in Node.js.
 
@@ -8,11 +8,11 @@ Suppress experimental warnings in Node.js.
 ## Install
 
 ```sh
-$ yarn add @nextools/suppress-experimental-warnings
+$ yarn add @nextnextools/nextools-suppress-experimental-warnings
 ```
 
 ## Usage
 
 ```sh
-node --require @nextools/suppress-experimental-warnings --experimental-import-meta-resolve --experimental-loader @nextools/typescript-esm-loader ./module.ts
+node --require @nextnextools/nextools-suppress-experimental-warnings --experimental-import-meta-resolve --experimental-loader @nextnextools/nextools-typescript-esm-loader ./module.ts
 ```

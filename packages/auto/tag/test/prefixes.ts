@@ -1,4 +1,4 @@
-import type { TPrefixes } from '@auto/core'
+import type { TPrefixes } from '@nextnextools/auto-core'
 
 export const prefixes: TPrefixes = {
   major: '💥',

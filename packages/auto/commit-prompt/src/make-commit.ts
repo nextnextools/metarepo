@@ -1,4 +1,4 @@
-import { getPackages } from '@auto/core'
+import { getPackages } from '@nextnextools/auto-core'
 import prompts from 'prompts'
 import { spawnChildProcess } from 'spown'
 import { getPrefixes } from './get-refixes'

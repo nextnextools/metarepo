@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "description": "",
   "keywords": [],
-  "repository": "nextnextools/metarepo",
+  "repository": "https://github.com/nextnextools/metarepo",
   "license": "MIT",
   "buildAssets": {
     "tsconfig.json": "."

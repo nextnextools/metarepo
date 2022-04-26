@@ -4,7 +4,7 @@
 
 ## v0.9.0
 
-* ♻️ update dependencies `@rebox/android`, `@rebox/ios`, `@nextools/babel-config`, `@rebox/web`, `@x-ray/plugin-chromium-screenshots`, `@x-ray/plugin-react-snapshots`, `@x-ray/plugin-react-native-snapshots`, `@x-ray/core`, `@x-ray/plugin-android-screenshots`, `@x-ray/plugin-ios-screenshots`
+* ♻️ update dependencies `@rebox/android`, `@rebox/ios`, `@nextnextools/nextools-babel-config`, `@rebox/web`, `@x-ray/plugin-chromium-screenshots`, `@x-ray/plugin-react-snapshots`, `@x-ray/plugin-react-native-snapshots`, `@x-ray/core`, `@x-ray/plugin-android-screenshots`, `@x-ray/plugin-ios-screenshots`
 
 ## v0.8.1
 
@@ -20,7 +20,7 @@
 
 * 🐞 skip more unnecessary `package.json` fields when publishing
 
-* ♻️ update dependencies `pkgu`, `@nextools/babel-config`
+* ♻️ update dependencies `pkgu`, `@nextnextools/nextools-babel-config`
 
 ## v0.7.3
 
@@ -46,7 +46,7 @@
   https://github.com/browserslist/browserslist#browsers-data-updating
   ```
 
-* ♻️ update dependencies `@auto/core`
+* ♻️ update dependencies `@nextnextools/auto-core`
 
 ## v0.6.4
 
@@ -68,7 +68,7 @@
 
 * 🐞 🐞 refactor using new deps
 
-* ♻️ update dependencies `tsfn`, `@start/reporter-verbose`, `fixdeps`, `@auto/changelog`, `@auto/commit-prompt`, `@auto/core`, `@auto/tag`, `@rebox/ios`, `@rebox/android`, `@start/plugin-lib-typescript-check`
+* ♻️ update dependencies `tsfn`, `@start/reporter-verbose`, `fixdeps`, `@nextnextools/auto-changelog`, `@nextnextools/auto-commit-prompt`, `@nextnextools/auto-core`, `@nextnextools/auto-tag`, `@rebox/ios`, `@rebox/android`, `@start/plugin-lib-typescript-check`
 
 ## v0.6.0
 
@@ -88,7 +88,7 @@
 
 * 🐞 fix build of packages without any entry points
 
-* ♻️ update dependencies `@nextools/babel-config`, `copie`, `dleet`, `fixdeps`, `move-path`, `pifs`, `rplace`, `stroki`, `tsfn`, `typeon`, `weslint`, `@auto/changelog`, `@auto/commit-prompt`, `@auto/github`, `@auto/core`, `@auto/slack`, `@auto/tag`, `@auto/telegram`, `@start/plugin`, `@start/plugin-find`, `@start/plugin-copy`, `@start/plugin-env`, `@start/plugin-input-files`, `@start/plugin-lib-babel`, `@start/plugin-lib-eslint`, `@start/plugin-lib-istanbul`, `@start/plugin-lib-tape`, `@start/plugin-lib-typescript-check`, `@start/plugin-lib-typescript-generate`, `@start/plugin-overwrite`, `@start/plugin-parallel`, `@start/plugin-read`, `@start/plugin-remove`, `@start/plugin-rename`, `@start/plugin-sequence`, `@start/plugin-write`, `@start/reporter-verbose`, `@x-ray/core`, `@x-ray/plugin-chromium-screenshots`, `@x-ray/plugin-android-screenshots`, `@x-ray/plugin-ios-screenshots`, `@x-ray/plugin-react-native-snapshots`, `@x-ray/plugin-react-snapshots`
+* ♻️ update dependencies `@nextnextools/nextools-babel-config`, `copie`, `dleet`, `fixdeps`, `move-path`, `pifs`, `rplace`, `stroki`, `tsfn`, `typeon`, `weslint`, `@nextnextools/auto-changelog`, `@nextnextools/auto-commit-prompt`, `@nextnextools/auto-github`, `@nextnextools/auto-core`, `@nextnextools/auto-slack`, `@nextnextools/auto-tag`, `@nextnextools/auto-telegram`, `@start/plugin`, `@start/plugin-find`, `@start/plugin-copy`, `@start/plugin-env`, `@start/plugin-input-files`, `@start/plugin-lib-babel`, `@start/plugin-lib-eslint`, `@start/plugin-lib-istanbul`, `@start/plugin-lib-tape`, `@start/plugin-lib-typescript-check`, `@start/plugin-lib-typescript-generate`, `@start/plugin-overwrite`, `@start/plugin-parallel`, `@start/plugin-read`, `@start/plugin-remove`, `@start/plugin-rename`, `@start/plugin-sequence`, `@start/plugin-write`, `@start/reporter-verbose`, `@x-ray/core`, `@x-ray/plugin-chromium-screenshots`, `@x-ray/plugin-android-screenshots`, `@x-ray/plugin-ios-screenshots`, `@x-ray/plugin-react-native-snapshots`, `@x-ray/plugin-react-snapshots`
 
 ## v0.3.3
 
@@ -100,13 +100,13 @@
 
 * 🐞 update `auto/core`
 
-* ♻️ update dependencies `@auto/commit-prompt`, `@auto/changelog`, `@auto/github`, `@auto/slack`, `@auto/tag`, `@auto/telegram`, `@auto/core`
+* ♻️ update dependencies `@nextnextools/auto-commit-prompt`, `@nextnextools/auto-changelog`, `@nextnextools/auto-github`, `@nextnextools/auto-slack`, `@nextnextools/auto-tag`, `@nextnextools/auto-telegram`, `@nextnextools/auto-core`
 
 ## v0.3.1
 
 * 🐞 lint `.tsx` files in `tasks/`
 
-* ♻️ update dependencies `@start/plugin-lib-babel`, `@nextools/babel-config`
+* ♻️ update dependencies `@start/plugin-lib-babel`, `@nextnextools/nextools-babel-config`
 
 ## v0.3.0
 
@@ -134,7 +134,7 @@
 
 * 🐞 upgrade escape-string-regexp to v3
 
-* ♻️ update dependencies `@rebox/web`, `@auto/core`, `@auto/commit-prompt`, `@start/reporter-verbose`, `@rebox/android`, `@rebox/ios`
+* ♻️ update dependencies `@rebox/web`, `@nextnextools/auto-core`, `@nextnextools/auto-commit-prompt`, `@start/reporter-verbose`, `@rebox/android`, `@rebox/ios`
 
 ## v0.2.2
 
@@ -146,7 +146,7 @@
 
 * 🐞 refactor using new Babel configs
 
-* ♻️ update dependencies `@rebox/web`, `@nextools/babel-config`
+* ♻️ update dependencies `@rebox/web`, `@nextnextools/nextools-babel-config`
 
 ## v0.2.0
 
@@ -156,7 +156,7 @@
 
 * 🐞 sync React Native and React versions
 
-* ♻️ update dependencies `@nextools/babel-config`, `@auto/core`, `@x-ray/chrome-perf-snapshots`, `@x-ray/chrome-screenshots`, `@x-ray/firefox-screenshots`, `@x-ray/snapshots`, `@rebox/web`, `@x-ray/common-utils`, `@x-ray/web-mobile-screenshots`, `@rebox/android`, `@rebox/ios`
+* ♻️ update dependencies `@nextnextools/nextools-babel-config`, `@nextnextools/auto-core`, `@x-ray/chrome-perf-snapshots`, `@x-ray/chrome-screenshots`, `@x-ray/firefox-screenshots`, `@x-ray/snapshots`, `@rebox/web`, `@x-ray/common-utils`, `@x-ray/web-mobile-screenshots`, `@rebox/android`, `@rebox/ios`
 
 ## v0.1.1
 

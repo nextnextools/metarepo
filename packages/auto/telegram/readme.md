@@ -1,1 +1,1 @@
-# @auto/telegram ![npm](https://flat.badgen.net/npm/v/@auto/telegram)
+# @nextnextools/auto-telegram ![npm](https://flat.badgen.net/npm/v/@nextnextools/auto-telegram)

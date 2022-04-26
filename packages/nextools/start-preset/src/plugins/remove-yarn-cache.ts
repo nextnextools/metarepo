@@ -1,4 +1,4 @@
-import type { THookProps } from '@auto/core'
+import type { THookProps } from '@nextnextools/auto-core'
 import plugin from '@start/plugin'
 import type { TReadonly } from 'tsfn'
 

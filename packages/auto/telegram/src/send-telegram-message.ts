@@ -1,4 +1,4 @@
-import type { THook, TMessage, TLogReleaseType, TPackageRelease } from '@auto/core'
+import type { THook, TMessage, TLogReleaseType, TPackageRelease } from '@nextnextools/auto-core'
 import fetch from 'node-fetch'
 import type { TReadonly } from 'tsfn'
 import { TELEGRAM_MESSAGE_MAX_LENGTH, TELEGRAM_API_URL } from './constants'

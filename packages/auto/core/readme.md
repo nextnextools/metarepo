@@ -1,1 +1,1 @@
-# @auto/core ![npm](https://flat.badgen.net/npm/v/@auto/core)
+# @nextnextools/auto-core ![npm](https://flat.badgen.net/npm/v/@nextnextools/auto-core)

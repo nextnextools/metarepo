@@ -1,1 +1,1 @@
-# @nextools/eslint-config ![npm](https://flat.badgen.net/npm/v/@nextools/eslint-config)
+# @nextnextools/nextools-eslint-config ![npm](https://flat.badgen.net/npm/v/@nextnextools/nextools-eslint-config)

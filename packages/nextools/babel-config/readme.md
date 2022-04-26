@@ -1,1 +1,1 @@
-# @nextools/babel-config ![npm](https://flat.badgen.net/npm/v/@nextools/babel-config)
+# @nextnextools/nextools-babel-config ![npm](https://flat.badgen.net/npm/v/@nextnextools/nextools-babel-config)

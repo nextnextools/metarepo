@@ -1,4 +1,4 @@
-import type { TReleaseType } from '@auto/core'
+import type { TReleaseType } from '@nextnextools/auto-core'
 
 export type TSlackConfig = {
   token: string,

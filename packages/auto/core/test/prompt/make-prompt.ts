@@ -352,7 +352,7 @@ test('makePrompt: edit - no changes made', async (t) => {
         { stderr: process.stderr },
       ],
       [
-        'editor ./node_modules/@auto/.EDIT.json',
+        'editor ./node_modules/@nextnextools/auto-.EDIT.json',
         { stdin: process.stdin, stdout: process.stdout, stderr: process.stderr },
       ],
     ],
@@ -363,7 +363,7 @@ test('makePrompt: edit - no changes made', async (t) => {
     getSpyCalls(writeFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         JSON.stringify({
           initialTypes: {
             '@ns/init1': 'minor',
@@ -391,7 +391,7 @@ test('makePrompt: edit - no changes made', async (t) => {
     getSpyCalls(readFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         'utf8',
       ],
     ],
@@ -402,7 +402,7 @@ test('makePrompt: edit - no changes made', async (t) => {
     getSpyCalls(deleteSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
       ],
     ],
     'should call delete'
@@ -470,7 +470,7 @@ test('makePrompt: edit - invalid answer json', async (t) => {
         { stderr: process.stderr },
       ],
       [
-        'editor ./node_modules/@auto/.EDIT.json',
+        'editor ./node_modules/@nextnextools/auto-.EDIT.json',
         { stdin: process.stdin, stdout: process.stdout, stderr: process.stderr },
       ],
     ],
@@ -481,7 +481,7 @@ test('makePrompt: edit - invalid answer json', async (t) => {
     getSpyCalls(writeFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         JSON.stringify({
           initialTypes: {
             '@ns/init1': 'minor',
@@ -509,7 +509,7 @@ test('makePrompt: edit - invalid answer json', async (t) => {
     getSpyCalls(readFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         'utf8',
       ],
     ],
@@ -520,7 +520,7 @@ test('makePrompt: edit - invalid answer json', async (t) => {
     getSpyCalls(deleteSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
       ],
     ],
     'should call delete'
@@ -611,7 +611,7 @@ test('makePrompt: edit - changes', async (t) => {
         { stderr: process.stderr },
       ],
       [
-        'editor ./node_modules/@auto/.EDIT.json',
+        'editor ./node_modules/@nextnextools/auto-.EDIT.json',
         { stdin: process.stdin, stdout: process.stdout, stderr: process.stderr },
       ],
     ],
@@ -622,7 +622,7 @@ test('makePrompt: edit - changes', async (t) => {
     getSpyCalls(writeFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         JSON.stringify({
           initialTypes: {
             '@ns/init1': 'minor',
@@ -650,7 +650,7 @@ test('makePrompt: edit - changes', async (t) => {
     getSpyCalls(readFileSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
         'utf8',
       ],
     ],
@@ -661,7 +661,7 @@ test('makePrompt: edit - changes', async (t) => {
     getSpyCalls(deleteSpy),
     [
       [
-        './node_modules/@auto/.EDIT.json',
+        './node_modules/@nextnextools/auto-.EDIT.json',
       ],
     ],
     'should call delete'

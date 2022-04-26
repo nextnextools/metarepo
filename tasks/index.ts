@@ -8,14 +8,14 @@ import {
   Pkg,
   RunApp,
   BuildApp,
-} from '@nextools/start-preset'
+} from '@nextnextools/nextools-start-preset'
 import plugin from '@start/plugin'
 import sequence from '@start/plugin-sequence'
 import syncState from './sandbox/plugins/sync-state'
 
 const shouldBailout = Boolean(process.env.CI)
 
-export * from '@nextools/start-preset'
+export * from '@nextnextools/nextools-start-preset'
 
 export const checkChromiumScreenshots = CheckChromiumScreenshots({ shouldBailout, chromiumVersion: '83' })
 export const checkIosScreenshots = CheckIosScreenshots({ shouldBailout })
