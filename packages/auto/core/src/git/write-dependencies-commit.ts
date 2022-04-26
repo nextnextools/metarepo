@@ -15,7 +15,7 @@ export const writeDependenciesCommit = (): THook => async ({ prefixes, packages 
   await spawnChildProcess(
     `git add ${packageJsonPaths}`,
     {
-      stdout: null,
+      stdout: process.stdout,
       stderr: process.stderr,
     }
   )
@@ -23,7 +23,7 @@ export const writeDependenciesCommit = (): THook => async ({ prefixes, packages 
   await spawnChildProcess(
     `git commit -m "${prefixes.dependencies} upgrade dependencies"`,
     {
-      stdout: null,
+      stdout: process.stdout,
       stderr: process.stderr,
     }
   )
