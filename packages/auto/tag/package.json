@@ -1,6 +1,6 @@
 {
-  "name": "@auto/tag",
-  "version": "0.2.1",
+  "name": "@nextnextools/auto-tag",
+  "version": "0.3.0",
   "description": "Write Git tags with Auto Tools",
   "keywords": [
     "monorepo",
@@ -10,13 +10,13 @@
     "changelog"
   ],
   "main": "src/index.ts",
-  "repository": "nextools/metarepo",
+  "repository": "nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"
   },
   "dependencies": {
-    "@auto/core": "^0.4.0",
+    "@nextnextools/auto-core": "^0.4.0",
     "spown": "^0.1.2"
   },
   "devDependencies": {

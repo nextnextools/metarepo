@@ -1,10 +1,10 @@
 {
-  "name": "xrom",
-  "version": "3.0.2",
+  "name": "@nextnextools/xrom",
+  "version": "3.1.0",
   "description": "",
   "keywords": [],
   "main": "src/index.ts",
-  "repository": "nextools/metarepo",
+  "repository": "nextnextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"

@@ -1,6 +1,6 @@
 {
-  "name": "@auto/commit-prompt",
-  "version": "0.2.1",
+  "name": "@nextnextools/auto-commit-prompt",
+  "version": "0.3.0",
   "description": "Interactive commit prompt for Auto Tools",
   "keywords": [
     "monorepo",
@@ -10,13 +10,13 @@
     "changelog"
   ],
   "main": "src/index.ts",
-  "repository": "nextools/metarepo",
+  "repository": "nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"
   },
   "dependencies": {
-    "@auto/core": "^0.4.0",
+    "@nextnextools/auto-core": "^0.4.0",
     "escape-string-regexp": "^4.0.0",
     "prompts": "^2.3.0",
     "spown": "^0.1.2",

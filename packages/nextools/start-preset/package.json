@@ -1,6 +1,6 @@
 {
-  "name": "@nextools/start-preset",
-  "version": "0.9.0",
+  "name": "@nextnextools/nextools-start-preset",
+  "version": "0.10.0",
   "description": "",
   "keywords": [],
   "bin": {
@@ -10,24 +10,24 @@
   "buildAssets": {
     "src/config/*.yml": "node/"
   },
-  "repository": "nextools/metarepo",
+  "repository": "nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"
   },
   "dependencies": {
-    "@auto/changelog": "^0.3.0",
-    "@auto/commit-prompt": "^0.3.0",
-    "@auto/core": "^0.4.0",
-    "@auto/fs": "^1.0.0",
-    "@auto/github": "^0.3.0",
-    "@auto/slack": "^0.3.0",
-    "@auto/tag": "^0.3.0",
-    "@auto/telegram": "^0.3.0",
+    "@nextnextools/auto-changelog": "^0.3.0",
+    "@nextnextools/auto-commit-prompt": "^0.3.0",
+    "@nextnextools/auto-core": "^0.4.0",
+    "@nextnextools/auto-fs": "^1.0.0",
+    "@nextnextools/auto-github": "^0.3.0",
+    "@nextnextools/auto-slack": "^0.3.0",
+    "@nextnextools/auto-tag": "^0.3.0",
+    "@nextnextools/auto-telegram": "^0.3.0",
     "@babel/core": "^7.8.0",
     "@babel/register": "^7.8.0",
-    "@nextools/babel-config": "^0.5.0",
-    "@nextools/browsers-list": "^0.3.0",
+    "@nextnextools/nextools-babel-config": "^0.5.0",
+    "@nextnextools/nextools-browsers-list": "^0.3.0",
     "@rebox/android": "^5.0.0",
     "@rebox/ios": "^7.0.0",
     "@rebox/web": "^5.0.0",

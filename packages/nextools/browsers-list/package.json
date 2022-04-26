@@ -1,9 +1,9 @@
 {
-  "name": "@nextools/browsers-list",
-  "version": "0.2.0",
+  "name": "@nextnextools/nextools-browsers-list",
+  "version": "0.3.0",
   "description": "",
   "keywords": [],
-  "repository": "nextools/metarepo",
+  "repository": "nextnextools/metarepo",
   "main": "src/index.js",
   "license": "MIT",
   "engines": {

@@ -1,10 +1,10 @@
 {
-  "name": "tarmap",
-  "version": "0.2.0",
+  "name": "@nextnextools/tarmap",
+  "version": "0.3.0",
   "description": "",
   "keywords": [],
   "main": "src/index.ts",
-  "repository": "nextools/metarepo",
+  "repository": "nextnextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"

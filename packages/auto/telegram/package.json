@@ -1,6 +1,6 @@
 {
-  "name": "@auto/telegram",
-  "version": "0.2.0",
+  "name": "@nextnextools/auto-telegram",
+  "version": "0.3.0",
   "description": "Send Telegram messages with Auto Tools",
   "keywords": [
     "monorepo",
@@ -10,13 +10,13 @@
     "changelog"
   ],
   "main": "src/index.ts",
-  "repository": "nextools/metarepo",
+  "repository": "nextnextools/metarepo",
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"
   },
   "dependencies": {
-    "@auto/core": "^0.4.0",
+    "@nextnextools/auto-core": "^0.4.0",
     "node-fetch": "^2.6.0",
     "tsfn": "^2.2.0"
   },
