@@ -3,7 +3,7 @@ import { readPackage } from '../fs/read-package'
 import type { TNpmConfig } from '../types'
 
 const defaultConfig: TReadonly<Required<TNpmConfig>> = {
-  registry: 'https://npm.pkg.github.com',
+  registry: 'https://registry.npmjs.org/',
   publishSubDirectory: '',
   access: 'restricted',
 }

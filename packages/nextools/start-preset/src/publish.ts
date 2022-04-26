@@ -114,7 +114,8 @@ export const publish = () => plugin('publish', ({ reporter }) => async () => {
       await taskRunner(reporter)(props)
     },
     publish: publishPackages({
-      registry: 'http://npm.pkg.github.com',
+      // Turn on if you want to publish to github
+      // registry: 'http://npm.pkg.github.com',
     }),
     prePush: shouldMakeGitTags && writePublishTags,
     postPush: concurrentHooks(

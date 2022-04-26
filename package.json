@@ -104,7 +104,6 @@
       "zeroBreakingChangeType": "minor"
     },
     "npm": {
-      "registry": "https://npm.pkg.github.com",
       "publishSubDirectory": "build",
       "access": "public"
     },
