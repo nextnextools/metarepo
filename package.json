@@ -87,7 +87,8 @@
     "ws": "^7.3.1"
   },
   "scripts": {
-    "start": "packages/nextools/start-preset/src/cli/index.js"
+    "start": "packages/nextools/start-preset/src/cli/index.js",
+    "debug": "node --inspect-brk=5858 packages/nextools/start-preset/src/cli/index.js"
   },
   "start": {
     "file": "tasks/",
@@ -103,6 +104,7 @@
       "zeroBreakingChangeType": "minor"
     },
     "npm": {
+      "registry": "https://npm.pkg.github.com",
       "publishSubDirectory": "build",
       "access": "public"
     },

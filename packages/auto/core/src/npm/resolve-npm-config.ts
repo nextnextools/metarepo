@@ -3,7 +3,7 @@ import { readPackage } from '../fs/read-package'
 import type { TNpmConfig } from '../types'
 
 const defaultConfig: TReadonly<Required<TNpmConfig>> = {
-  registry: 'https://registry.npmjs.org/',
+  registry: 'https://npm.pkg.github.com',
   publishSubDirectory: '',
   access: 'restricted',
 }
@@ -16,7 +16,7 @@ export const resolveNpmConfig = async (packageDir: string, rootNpmConfig?: TNpmC
     ...rootNpmConfig,
     ...pkgAutoConfig.npm,
   }
-
+  console.log(resultConfig)
   if (typeof overrideRegistry !== 'undefined') {
     resultConfig.registry = overrideRegistry
   }

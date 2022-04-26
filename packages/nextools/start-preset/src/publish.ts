@@ -50,7 +50,7 @@ const preBuild: THook = async (props) => {
 }
 
 export const publish = () => plugin('publish', ({ reporter }) => async () => {
-  const { auto } = await import('@auto/core')
+  const { auto, publishPackages } = await import('@auto/core')
   const { writePublishTags } = await import('@auto/tag')
   const { getStartOptions } = await import('./utils')
   const {
@@ -113,6 +113,9 @@ export const publish = () => plugin('publish', ({ reporter }) => async () => {
 
       await taskRunner(reporter)(props)
     },
+    publish: publishPackages({
+      registry: 'http://npm.pkg.github.com',
+    }),
     prePush: shouldMakeGitTags && writePublishTags,
     postPush: concurrentHooks(
       shouldMakeGitHubReleases && makeGithubReleases(githubConfig),
