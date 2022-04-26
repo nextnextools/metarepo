@@ -1,3 +1,7 @@
+## v0.5.0
+
+* 🐣 init again
+
 ## v0.3.4
 
 * 🐞 fix detecting publish same version error

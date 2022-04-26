@@ -1,3 +1,7 @@
+## v0.4.0
+
+* 🐣 init again
+
 ## v0.2.0
 
 * 💥 drop Node.js v10

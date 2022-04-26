@@ -1,3 +1,7 @@
+## v0.6.0
+
+* 🐣 init again
+
 ## v0.4.0
 
 * 💥 switch to new React JSX transform

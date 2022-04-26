@@ -1,3 +1,7 @@
+## v0.4.0
+
+* 🐣 init again
+
 ## v0.2.1
 
 * 🐞 🐞 refactor using new deps
