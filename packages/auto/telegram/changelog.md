@@ -1,3 +1,9 @@
+## v0.6.0
+
+* 🌱 npm
+
+* ♻️ update dependencies `@nextnextools/auto-core`
+
 ## v0.5.0
 
 * 🌱 fix deps

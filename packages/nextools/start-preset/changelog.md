@@ -1,3 +1,9 @@
+## v0.12.0
+
+* 🌱 npm
+
+* ♻️ update dependencies `@nextnextools/auto-github`, `@nextnextools/auto-slack`, `@nextnextools/auto-tag`, `@nextnextools/auto-telegram`, `@nextnextools/auto-changelog`, `@nextnextools/auto-core`, `@nextnextools/auto-commit-prompt`, `@nextnextools/nextools-browsers-list`, `@nextnextools/nextools-babel-config`
+
 ## v0.11.0
 
 * 🌱 fix deps
