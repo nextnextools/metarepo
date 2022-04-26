@@ -16,7 +16,7 @@
     "node": ">=12.13.0"
   },
   "dependencies": {
-    "@nextnextools/auto-core": "^0.5.0",
+    "@nextnextools/auto-core": "^0.6.0",
     "pifs": "^2.0.0",
     "spown": "^0.1.2",
     "tsfn": "^2.2.0"
