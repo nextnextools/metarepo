@@ -1,6 +1,6 @@
 {
   "name": "@nextnextools/nextools-suppress-experimental-warnings",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Suppress experimental warnings in Node.js",
   "keywords": [],
   "main": "src/index.js",

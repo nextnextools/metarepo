@@ -1,3 +1,9 @@
+## v0.5.0
+
+* 🌱 fix deps
+
+* ♻️ update dependencies `@nextnextools/auto-core`
+
 ## v0.4.0
 
 * 🐣 init again

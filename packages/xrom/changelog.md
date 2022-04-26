@@ -1,3 +1,7 @@
+## v3.3.0
+
+* 🌱 fix deps
+
 ## v3.2.0
 
 * 🐣 init again

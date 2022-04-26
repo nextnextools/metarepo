@@ -1,3 +1,9 @@
+## v0.11.0
+
+* 🌱 fix deps
+
+* ♻️ update dependencies `@nextnextools/auto-changelog`, `@nextnextools/auto-github`, `@nextnextools/auto-commit-prompt`, `@nextnextools/auto-slack`, `@nextnextools/auto-tag`, `@nextnextools/auto-telegram`, `@nextnextools/nextools-babel-config`, `@nextnextools/nextools-browsers-list`, `@nextnextools/auto-core`
+
 ## v0.10.0
 
 * 🐣 init again

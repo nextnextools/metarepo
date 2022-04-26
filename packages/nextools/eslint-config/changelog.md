@@ -1,3 +1,7 @@
+## v0.10.0
+
+* 🌱 fix deps
+
 ## v0.9.0
 
 * 🐣 init again

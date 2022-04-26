@@ -1,3 +1,9 @@
+## v0.7.0
+
+* 🌱 fix deps
+
+* ♻️ update dependencies `@nextnextools/nextools-browsers-list`
+
 ## v0.6.0
 
 * 🐣 init again
