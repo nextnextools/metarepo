@@ -1,0 +1,40 @@
+{
+  "name": "@nextnextools/x-ray-ui",
+  "version": "3.3.1",
+  "description": "",
+  "keywords": [],
+  "types": "types/index.d.ts",
+  "main": "node/index.js",
+  "browser": "web/index.js",
+  "repository": "nextools/metarepo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "@revert/animation": "^0.2.2",
+    "@revert/background": "^0.3.1",
+    "@revert/block": "^0.3.1",
+    "@revert/border": "^0.3.1",
+    "@revert/button": "^0.2.1",
+    "@revert/checkbox": "^0.2.1",
+    "@revert/color": "^0.1.1",
+    "@revert/root": "^0.3.2",
+    "@revert/size": "^0.2.2",
+    "@revert/svg": "^0.1.1",
+    "@revert/text": "^0.3.4",
+    "@types/diff": "^4.0.2",
+    "@x-ray/core": "^0.3.0",
+    "bsc": "^2.0.0",
+    "diff": "^4.0.2",
+    "funcom": "^0.2.0",
+    "react": "^18.2.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "refun": "^3.1.0",
+    "syntx": "^2.0.0",
+    "tsfn": "^2.2.0",
+    "typeon": "^2.0.0"
+  }
+}
