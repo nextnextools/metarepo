@@ -1,3 +1,7 @@
+## v3.3.0
+
+* 🐣 init again
+
 ## v3.2.1
 
 * 🐞 remove save image

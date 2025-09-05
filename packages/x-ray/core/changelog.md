@@ -1,3 +1,7 @@
+## v0.3.0
+
+* 🐣 init again
+
 ## v0.2.2
 
 * 🐞 bump `@rebox/web`
