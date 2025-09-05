@@ -1,6 +1,6 @@
 {
   "name": "@nextnextools/x-ray-core",
-  "version": "0.3.0",
+  "version": "0.3.5",
   "description": "X-Ray Core",
   "keywords": [],
   "main": "src/index.ts",
